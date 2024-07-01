@@ -1,51 +1,67 @@
-Cake Paradise: Your destination for delicious and beautiful cakes, big or small, in color, flavor, and shape
+# Cake Paradise
 
-Authors
-Charles Nweze
-Charles Obochi
+**Your destination for delicious and beautiful cakes, big or small, in color, flavor, and shape**
 
-Description
-This ia a website that specifically deals with the ordering of cake.
+## Authors
 
-Behaviour Driven Development(BDD)
-1.Landing Page
+- Charles Nweze
+- Charles Obochi
 
-Descriptions: "We have a photo of the varieties of cakes we sell on the landing page."
+## Description
 
-2.About Us
+Cake Paradise is a website that allows customers to easily order a variety of cakes. 
 
-"There's a short description of our business and core values when scrolling down from the landing page."
+## Behavior Driven Development (BDD)
 
-3.Our Cakes
+### 1. Landing Page
+- **Description**: Display photos of the various cakes available for sale.
 
-"Hover on the images on this section to reveal the name. What is contained in the Cake is written in the menu section.
+### 2. About Us
+- **Description**: Provides a brief overview of our business and core values.
 
-4.Menu
+### 3. Our Cakes
+- **Description**: Hover over images in this section to reveal the cake's name. Detailed descriptions are available in the menu section.
 
-"This is a section that has the types of cakes  we sell and their descriptions are given below the name.
+### 4. Menu
+- **Description**: Lists the types of cakes we sell along with their descriptions below each name.
 
-5.Contact Us Section
+### 5. Contact Us Section
+- **Input**: Fill out all forms and submit.
+- **Output**: "Thanks for being our client, your message has been received."
 
-INPUT: "Fill all forms and Submit" OUTPUT: "Thanks for being our client,your message has been received"
+## Setup/Installation Requirements
 
-Setup/Installation Requirements
-Open terminal (CTRL ALT T)
-git clone https://Charliewealth.github.io/My-Cake-Paradise.git
-cd delani-studio
-use atom . or code . to open the clone repo on Atom or VS-code respectively
-Known Bugs
-Our website is not quite responsive.
+1. Open a terminal (CTRL + ALT + T).
+2. Clone the repository:
+   
+   git clone https://Charliewealth.github.io/My-Cake-Paradise.git
+   ```
+3. Navigate to the project directory:
+   
+   cd My-Cake-Paradise
+   ```
+4. Open the project in your preferred code editor (Atom or VS Code):
+   
+   atom .  # or code .
+   ```
 
-Technologies Used
-JAVASCRIPT
-HTML5
-CSS3
-GIT (for version control)
+## Known Bugs
 
-Support and contact details
-Our contacts:+2349031477607 and +2347033093165
+- The website is not fully responsive.
 
-email:nwezecharles@gmail.com and charlyemex@gmail.com
+## Technologies Used
 
-Licence
-Licensed under the MIT license.
+- JavaScript
+- HTML5
+- CSS3
+- Git (for version control)
+
+## Support and Contact Details
+
+- Phone: +2349031477607, +2347033093165
+- Email: [nwezecharles@gmail.com](mailto:nwezecharles@gmail.com), [charlyemex@gmail.com](mailto:charlyemex@gmail.com)
+
+## License
+
+This project is licensed under the MIT License.
+
