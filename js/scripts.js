@@ -1,4 +1,4 @@
-// Cake qualiries and sizes
+// Cake qualities and sizes
 const cakeFlavours = ["Italian", "Tuscan", "Portabella", "Prima", "Paradiso", "Napoletana"];
 const cakeSizes = ["Small", "Medium", "Large", "Jumbo"];
 const cakeCrusts = ["Thin", "Thick", "Crispy", "Gluten-free"];
