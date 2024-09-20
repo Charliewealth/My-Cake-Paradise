@@ -31,7 +31,7 @@ class Logger {
     }
 }
 
-// Example usage:
+// Example of usage:
 const logger = new Logger();
 
 // Log different levels of messages
