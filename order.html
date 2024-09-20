@@ -78,7 +78,7 @@
             function calculateTotal() {
                 let total = 0;
                 
-                // Get the selected size price
+                // Get the price of the selected size
                 const sizePrice = sizeElement.options[sizeElement.selectedIndex].text.match(/@NGN (\d+)/);
                 if (sizePrice) {
                     total += parseInt(sizePrice[1]);
