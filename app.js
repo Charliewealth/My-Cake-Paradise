@@ -19,6 +19,6 @@ function performCriticalOperation() {
     throw new Error('Simulated error');
 }
 
-// Start the application
+// This starts the application
 startApplication();
 
