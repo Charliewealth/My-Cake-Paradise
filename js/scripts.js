@@ -1,4 +1,4 @@
-// Define cake attributes
+// Cake qualiries and sizes
 const cakeFlavours = ["Italian", "Tuscan", "Portabella", "Prima", "Paradiso", "Napoletana"];
 const cakeSizes = ["Small", "Medium", "Large", "Jumbo"];
 const cakeCrusts = ["Thin", "Thick", "Crispy", "Gluten-free"];
@@ -14,12 +14,12 @@ function getNumberOfCakes() {
     return parseInt($("#number").val());
 }
 
-// Function to calculate the total amount
+// This code calculates the total amount
 function calculateTotal(flavour, size, crust, topping, number) {
     return (flavour + size + crust + topping) * number;
 }
 
-// Function to handle delivery orders
+// Handles the delivery orders
 function handleDeliveryOrder(flavour, size, crust, topping, number) {
     const total = calculateTotal(flavour, size, crust, topping, number);
     alert(
@@ -37,7 +37,7 @@ function handleDeliveryOrder(flavour, size, crust, topping, number) {
     alert("Your order will be delivered shortly. Delivery fee is NGN 1000.");
 }
 
-// Function to handle pick-up orders
+// Handles the pick-up orders
 function handlePickupOrder(flavour, size, crust, topping, number) {
     const total = calculateTotal(flavour, size, crust, topping, number);
     alert(
